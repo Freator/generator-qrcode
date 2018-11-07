@@ -1,4 +1,4 @@
-class diaoyong:
+class called_function:
     name=' '
     age=0
     __weight=0
@@ -8,7 +8,7 @@ class diaoyong:
         self.weight=w
     def speak(self):
         print("%s说我今年%d岁体重为%d斤"%(self.name,self.age,self.weight))
-x=diaoyong('dave',45,150)
+x=called_function('dave',45,150)
 x.speak()
 
 
